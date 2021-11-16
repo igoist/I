@@ -1,0 +1,16 @@
+$PD: $P + '-demo';
+
+.#{$PD}-wrap {
+  position: fixed;
+  inset: 0;
+  background-color: #333;
+  line-height: 100vh;
+  font-size: 36px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.36s ease-in-out;
+  z-index: 999999;
+}
+
+.#{$PD} {
+}
